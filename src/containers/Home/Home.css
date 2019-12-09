@@ -1,0 +1,25 @@
+img {
+    border-radius: 50%;
+    border: 1px solid;
+    width: 45%;
+    height: auto;
+}
+@media (max-width: 767px) {
+    .name {
+        font-size: 18px;
+    }
+}
+@media (min-width: 768px) {
+    img {
+        width: 28%;
+        height: auto;
+    }
+    .name {
+        font-size: 30px;
+    }
+}
+body{
+    background-image: url('../../assets/background-image/brick-wall-realistic.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+}

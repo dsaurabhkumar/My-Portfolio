@@ -1,0 +1,11 @@
+header {
+    background-color:#2A2423;
+    color: #fff;
+}
+.hambergerMenu {
+    font-size: 40px;
+    color: #fff;
+}
+.nav-item:hover {
+     color: wheat;
+}
