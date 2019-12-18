@@ -2,7 +2,7 @@ body {
     background-color: beige;
     box-sizing: border-box;
     font-family: 'Tomorrow', sans-serif !important;
-    background-image: url('../src/assets/background-image/brick-wall-realistic.jpg');
+    /* background-image: url('../src/assets/background-image/background-image.png'); */
     width: 100%;
 }
 h1 {
@@ -25,6 +25,6 @@ h1 {
 @media (max-width:767px) {
     .navbar-brand {
         color: white;
-        font-size: 28px !important;
+        font-size: 25px !important;
     }
 }

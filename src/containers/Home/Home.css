@@ -1,5 +1,5 @@
 img {
-    border-radius: 50%;
+    border-radius: 30%;
     border: 1px solid;
     width: 45%;
     height: auto;
@@ -18,8 +18,3 @@ img {
         font-size: 30px;
     }
 }
-/* body{
-    background-image: url('../../assets/background-image/brick-wall-realistic.jpg');
-    width: 100%;
-    background-repeat: no-repeat;
-} */

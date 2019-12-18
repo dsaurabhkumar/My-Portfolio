@@ -1,9 +1,12 @@
 header {
     background-color:#2A2423;
     color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 .hambergerMenu {
-    font-size: 40px;
+    font-size: 30px;
     color: #fff;
 }
 .nav-item:hover {
