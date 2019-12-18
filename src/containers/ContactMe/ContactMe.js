@@ -16,7 +16,7 @@ class ContactMe extends React.Component {
                 </div>
                 <div className="socialIcons mt-4 row">
                     <div className="col-md-3 text-center mt-2">
-                    <a href="mailto: dsaurabh.kumar1288@gmail.com" target="_blank"><i className="fas fa-envelope-open-text circle-icon"></i>
+                    <a href="mailto:dsaurabh.kumar1288@gmail.com" target="_blank"><i className="fas fa-envelope-open-text circle-icon"></i>
                         <p>dsaurabh.kumar1288@gmail.com</p></a>
                     </div>
                     <div className="col-md-3 text-center mt-2">
