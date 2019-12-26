@@ -5,23 +5,30 @@
     height: auto;
 }
 .contactMe h1 {
-    font-weight: 700;
+    font-weight: normal;
 }
 .contactMe p {
     font-size: 25px;
 }
-.socialIcons {
-    display: flex;
-    justify-content: space-around;
-}
 .socialIcons i {
     font-size: 30px;
-    color: #ffffff;
 }
-.circle-icon {
-    background: #2A2423;
-    padding:30px;
-    border-radius: 50%;
+.socialIcons {
+    text-align: center;
+    padding: 0;
+}
+.socialIcons li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+.contactDetails {
+    padding: 0;
+    text-align: end;
+}
+.contactDetails li {
+    list-style: none;
+    color: darkblue;
 }
 @media (min-width: 768px) {
     .contactImage {
@@ -35,22 +42,16 @@
         height: auto;
     }
     .contactMe h1 {
-        font-weight: 700;
+        font-weight: normal;
         font-size: 25px;
     }
     .contactMe p {
         font-size: 18px;
     }
     .socialIcons i {
-        font-size: 21px;
-        color: #ffffff;
+        font-size: 30px;
     }
     .socialIcons p {
         font-size: 14px;
-    }
-    .circle-icon {
-        background: #2A2423;
-        padding:21px;
-        border-radius: 50%;
     }
 }
