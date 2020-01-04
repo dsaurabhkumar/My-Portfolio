@@ -16,7 +16,7 @@ function Home() {
                     <strong>Front-End Developer</strong>
                 </div>
                 <div className="mt-3 text-center name">
-                    <strong>HTML5 | CSS | Bootstrap | Angular | React | Java Script | jQuery | AEM | GIT</strong>
+                    <strong>HTML5 | SASS | Bootstrap | Angular | React | Java Script | jQuery | AEM | GIT</strong>
                 </div>
             </div>
         </main>

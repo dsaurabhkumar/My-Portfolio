@@ -4,11 +4,13 @@
     width: 45%;
     height: auto;
 }
-.contactMe h1 {
+.contactMe h3 {
     font-weight: normal;
+    color: #3f3f3f;
 }
 .contactMe p {
     font-size: 25px;
+    color: #3f3f3f;
 }
 .socialIcons i {
     font-size: 30px;
@@ -16,11 +18,15 @@
 .socialIcons {
     text-align: center;
     padding: 0;
+    color: #3f3f3f;
 }
 .socialIcons li {
     list-style: none;
     display: inline;
     padding: 10px;
+}
+.socialIcons li a {
+    color: #3f3f3f;
 }
 .contactDetails {
     padding: 0;

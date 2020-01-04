@@ -2,7 +2,6 @@ body {
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif !important;
     /* background: url('../src/assets/background-image/brick-wall-realistic.jpg') center center fixed; */
-    background-color: wheat !important;
     background-size: cover;
 }
 h1 {
@@ -20,7 +19,7 @@ h1 {
     font-size: 25px !important;
 }
 .navbar-brand:hover {
-    color:wheat;
+    color: wheat;
 }
 .linkText {
     text-decoration: none;

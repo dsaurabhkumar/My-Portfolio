@@ -10,8 +10,8 @@ class ContactMe extends React.Component {
                     <img className="contactImage" src={heroBanner} alt=""></img>
                 </div>
                 <div className="contactMe text-center mt-5">
-                    <p>Web developer with 1.7 years of front end experience.Implemented websites, mobile applications, and landing pages from concept through deployment.
-                    Standardized all output with a new, responsive, mobile-first approach and strategy.</p>
+                    <p>Web developer with 1.7 years of front end experience. Worked on websites, mobile applications, static and dynamic pages.
+                    Standardized the view with a new, responsive, mobile-first approach and strategy.</p>
                     <h3><strong>Get in touch with me</strong></h3>
                 </div>
                 <ul className="socialIcons mt-5">

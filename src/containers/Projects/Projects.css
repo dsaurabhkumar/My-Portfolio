@@ -1,0 +1,35 @@
+.projectDetails {
+    text-align: justify;
+}
+ul li {
+    list-style: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+hr {
+    border-top: 1px dashed !important;
+}
+.projectDetails p {
+    color: #3f3f3f;
+}
+.projectTitle {
+    font-size: 21px;
+}
+.dates {
+    font-size: 16px;
+}
+.impDetail {
+    font-style: italic;
+    font-weight: 600;
+}
+@media (max-width: 767px) {
+    .projectDetails p {
+        font-size: 14px;
+    }
+    .techStack {
+        font-size: 14px;
+        text-align: justify;
+    }
+}

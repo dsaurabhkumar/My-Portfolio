@@ -1,4 +1,4 @@
-img {
+.heroBanner img {
     border-radius: 30%;
     border: 1px solid;
     width: 45%;
@@ -7,14 +7,16 @@ img {
 @media (max-width: 767px) {
     .name {
         font-size: 18px;
+        color: #3f3f3f;
     }
 }
 @media (min-width: 768px) {
-    img {
+   .heroBanner img {
         width: 28%;
         height: auto;
     }
     .name {
         font-size: 30px;
+        color: #3f3f3f;
     }
 }

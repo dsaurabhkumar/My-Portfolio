@@ -1,0 +1,14 @@
+.aboutMeContainer {
+    padding: 0 5% 0 5%;
+}
+.aboutMe img {
+    width: 100%;
+}
+@media (min-width: 767px) {
+    .contentContainer {
+        padding: 0 10% 0 10%;
+    }
+    .aboutMeContainer {
+        padding: 0 10% 0 10%;
+    }
+}
