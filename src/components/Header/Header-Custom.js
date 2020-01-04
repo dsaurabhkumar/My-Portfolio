@@ -1,9 +1,7 @@
 import $ from 'jquery';
 
-$(function(){ 
-    var navMain = $(".navbar-collapse");
-
-    navMain.on("click", "li", function () {
-        navMain.collapse('hide');
+$(document).ready(function () {
+    $(".navbar-nav li ").click(function (event) {
+        $(".navbar-collapse").collapse('hide');
     });
 });
