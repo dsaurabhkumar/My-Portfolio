@@ -13,7 +13,7 @@ function Home() {
                     <strong>Saurabh Kumar Dhiman</strong>
                 </div>
                 <div className="mt-3 text-center name">
-                    <strong>Front-End Developer</strong>
+                    <strong>Web/Front-End Developer</strong>
                 </div>
                 <div className="mt-3 text-center name">
                     <strong>HTML5 | SASS | Bootstrap | Angular | React | Java Script | jQuery | AEM | GIT</strong>
