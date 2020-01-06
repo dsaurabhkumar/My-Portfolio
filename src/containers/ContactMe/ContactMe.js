@@ -40,7 +40,7 @@ class ContactMe extends React.Component {
                         </a>
                     </li>
                 </ul>
-                <ul className="contactDetails mt-5">
+                <ul className="contactDetails mt-5 mb-5">
                     <li>E-mail: dsaurabh.kumar1288@gmail.com</li>
                     <li>Contact: +91-8278276208</li>
                 </ul>
