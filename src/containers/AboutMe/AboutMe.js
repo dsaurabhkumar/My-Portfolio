@@ -1,6 +1,5 @@
 import React from 'react';
 import './AboutMe.css';
-import image from '../../assets/background-image/frontEnd.jpg';
 
 class AboutMe extends React.Component {
     render() {
@@ -11,7 +10,7 @@ class AboutMe extends React.Component {
                         <p>"With 1.7 years of front end experience."</p>
                     </div>
                     <div className="mt-2 text-center aboutMe">
-                        <img src={image} alt=""></img>
+                    
                     </div>
                     <div className="mt-5 text-center contentContainer">
                         <h2>What can I do ?</h2>

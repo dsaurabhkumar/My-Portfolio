@@ -24,6 +24,22 @@ hr {
     font-style: italic;
     font-weight: 600;
 }
+.accordion {
+    cursor: pointer;
+    font-weight: 700;
+}
+.projectDetails {
+    display: none;
+    transition: max-height 0.2s ease-out;
+}
+.accordion:after {
+    content: 'Show details...';
+    color: #000;
+  }
+  
+  .active:after {
+    content: "Hide details...";
+  }
 @media (max-width: 767px) {
     .projectDetails p {
         font-size: 14px;
