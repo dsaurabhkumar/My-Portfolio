@@ -29,15 +29,13 @@ hr {
     font-weight: 700;
 }
 .projectDetails {
-    display: none;
     transition: max-height 0.2s ease-out;
 }
 .accordion:after {
     content: 'Show details...';
     color: #000;
   }
-  
-  .active:after {
+.active:after {
     content: "Hide details...";
   }
 @media (max-width: 767px) {
