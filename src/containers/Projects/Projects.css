@@ -8,14 +8,14 @@ ul {
     margin: 0;
     padding: 0;
 }
-hr {
+#projects hr {
     border-top: 1px dashed !important;
 }
 .projectDetails p {
     color: #3f3f3f;
 }
 .projectTitle {
-    font-size: 21px;
+    font-size: 28px;
 }
 .dates {
     font-size: 16px;
@@ -31,13 +31,6 @@ hr {
 .projectDetails {
     transition: max-height 0.2s ease-out;
 }
-.accordion:after {
-    content: 'Show details...';
-    color: #000;
-  }
-.active:after {
-    content: "Hide details...";
-  }
 @media (max-width: 767px) {
     .projectDetails p {
         font-size: 14px;

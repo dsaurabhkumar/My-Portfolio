@@ -5,7 +5,7 @@ class Projects extends React.Component {
     state = {
         accordian: [
             {
-                title: 'Jones Lang LaSalle Incorporated',
+                title: 'Jones Lang LaSalle Incorporated (JLL)',
                 date: 'Dec 2019 to till date',
                 open: false,
                 description: `Jones Lang LaSalle Incorporated (JLL) is an American commercial real estate services firm. It is the second-largest company of its kind in the world. The company is ranked 189th on the Fortune 500.
@@ -53,29 +53,28 @@ class Projects extends React.Component {
         let accordian = [...this.state.accordian];
         accordian[index].open = !accordian[index].open;
         this.setState({
-            accordian: accordian
+            accordian: accordian,
         })
     }
 
     render() {
         return (
             <div className="container">
-                <h2 className="mt-4 mb-4">Work Experience and Projects</h2>
+                <h2 className="mt-4 mb-5">Work Experience and Projects</h2>
                 {
                     this.state.accordian.map((val, index) => (
-                        <div key={'Accordian_item_' + index} className="row mt-2">
-                            <div className="col-md-12">
+                        <div key={'Accordian_item_' + index} className="row mt-2 mb-3">
+                            <div className="col-md-12" id="projects">
                                 <p><strong className="projectTitle">{val.title}</strong></p>
                                 <p className="impDetail">{val.details}</p>
-                                <p className="dates mb-2">{val.date}</p>
-                                <p className="accordion" onClick={() => this.viewMore(index)}></p>
+                                <p> <strong className="dates mb-2">{val.date}</strong></p>
+                                <button className="accordion mb-3" onClick={() => this.viewMore(index)}>Know more...</button>
                                 <div className={"projectDetails " + (!val.open ? 'd-none' : '')} >
                                     <p>{val.description}</p>
                                 </div>
                                 <p className="techStack">
                                     <strong>Tech Stack:</strong> {val.techStack}
                                 </p>
-                                <hr />
                             </div>
                         </div>
                     ))
