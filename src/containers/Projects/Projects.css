@@ -31,6 +31,13 @@ ul {
 .projectDetails {
     transition: max-height 0.2s ease-out;
 }
+/* .accordion::before {
+    content: "Show more...";
+}
+.accordion:active {
+    content: "Show less...";
+} */
+
 @media (max-width: 767px) {
     .projectDetails p {
         font-size: 14px;

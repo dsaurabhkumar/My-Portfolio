@@ -4,13 +4,14 @@ import './AboutMe.css';
 class AboutMe extends React.Component {
     render() {
         return (
-            <div className="container aboutMeContainer">
+            <React.Fragment>
+                <div className="container aboutMeContainer">
                     <div className="mt-5 text-center">
                         <h2>Hi, I'm a Front-End, Web Developer and UI Designer based in New Delhi, India.</h2>
                         <p>"With 1.7 years of front end experience."</p>
                     </div>
                     <div className="mt-2 text-center aboutMe">
-                    
+
                     </div>
                     <div className="mt-5 text-center contentContainer">
                         <h2>What can I do ?</h2>
@@ -21,7 +22,8 @@ class AboutMe extends React.Component {
                         <h2>Develop what you need.</h2>
                         <p>I'm a developer, so I know how to create website to run across devices using the latest technologies available.</p>
                     </div>
-            </div>
+                </div>
+            </React.Fragment>
         )
     }
 }
