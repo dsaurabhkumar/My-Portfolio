@@ -1,6 +1,7 @@
 import React from 'react';
 import './ContactMe.css';
 import heroBanner from '../../assets/profile-photo/banner.jpg';
+import ScrollToTop from '../../components/Scroll-to-Top/ScrollToTop';
 
 class ContactMe extends React.Component {
     render() {
@@ -44,6 +45,7 @@ class ContactMe extends React.Component {
                     <li>E-mail: dsaurabh.kumar1288@gmail.com</li>
                     <li>Contact: +91-8278276208</li>
                 </ul>
+                <ScrollToTop />
             </div>
         )
     }

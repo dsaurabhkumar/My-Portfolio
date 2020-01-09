@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import './Projects.css';
+import ScrollToTop from '../../components/Scroll-to-Top/ScrollToTop';
 
 class Projects extends React.Component {
     constructor(props) {
@@ -29,6 +30,15 @@ class Projects extends React.Component {
                         TransUnion is an American consumer credit reporting agency. TransUnion collects and aggregates information on over one billion individual consumers in over thirty countries including "200 million files profiling nearly every credit-active consumer in the United States". Its customers include over 65,000 businesses. Based in Chicago, Illinois, TransUnion's 2014 revenue was US$1.3 billion.
                         TransUnion also markets credit reports and other credit and fraud-protection products directly to consumers. Like all credit reporting agencies, the company is required by U.S. law to provide consumers with one free credit report every year.`,
                     techStack: 'HTML5, CSS, JavaScript, Bootstrap 4, Jahia (CMS), JSP, GIT, Bit Bucket, JIRA.'
+                },
+                {
+                    title: 'Ayasya Didital Pvt. Ltd. (ayasya.com)',
+                    date: 'March 2019 to June 2019',
+                    open: false,
+                    description: `It is an in-house Project. IT-sphere is a vibrant arena with continuous changes and challenges. And Ayasya Digital Solutions has been one company which always has absorbed all the shifting requirements in the market and has come up with corresponding solutions right from the year 2010.
+                    With the vision to have a truthful engagement with its clients and the mission to provide them with easy, responsive, flexible, affordable and fool-proof IT-solutions, the company over the years has grown from strength to strength.
+                    Services provided by the Ayasya Digital Pvt. Ltd : AEM Development, Website Design & Development, Mobile App Development, Digital Marketing etc.`,
+                    techStack: 'HTML5, CSS, SCSS, JavaScript, Bootstrap 4, GIT.'
                 },
                 {
                     title: 'Pioneer Banking (Indusind.com)',
@@ -82,6 +92,7 @@ class Projects extends React.Component {
                         </div>
                     ))
                 }
+                <ScrollToTop></ScrollToTop>
             </div>
         )
     }

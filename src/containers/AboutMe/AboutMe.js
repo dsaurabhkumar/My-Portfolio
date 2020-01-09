@@ -1,10 +1,15 @@
 import React from 'react';
 import './AboutMe.css';
+import aboutPic from '../../assets/background-image/aboutMe.png';
+import ScrollToTop from '../../components/Scroll-to-Top/ScrollToTop';
 
 class AboutMe extends React.Component {
     render() {
         return (
             <React.Fragment>
+            <div className="aboutMeImage">
+                <img src={aboutPic}></img>
+            </div>
                 <div className="container aboutMeContainer">
                     <div className="mt-5 text-center">
                         <h2>Hi, I'm a Front-End, Web Developer and UI Designer based in New Delhi, India.</h2>
@@ -22,6 +27,7 @@ class AboutMe extends React.Component {
                         <h2>Develop what you need.</h2>
                         <p>I'm a developer, so I know how to create website to run across devices using the latest technologies available.</p>
                     </div>
+                    <ScrollToTop></ScrollToTop>
                 </div>
             </React.Fragment>
         )

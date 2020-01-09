@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import heroBanner from '../../assets/profile-photo/banner.jpg';
+import ScrollToTop from '../../components/Scroll-to-Top/ScrollToTop';
 
 function Home() {
     return (
@@ -18,6 +19,7 @@ function Home() {
                 <div className="mt-4 mb-5 text-center name">
                     <strong>HTML5 | SASS | Bootstrap | Angular | React | Java Script | jQuery | AEM | GIT</strong>
                 </div>
+                <ScrollToTop />
             </div>
         </main>
     )

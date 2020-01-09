@@ -14,7 +14,7 @@ function Header() {
                         </button>
                         <div className="collapse navbar-collapse" id="navBarId">
                             <ul className="navbar-nav ml-auto">
-                                <li className="nav-item"><Link className="nav-link" to="/resume">Resume</Link></li>
+                                {/* <li className="nav-item"><Link className="nav-link" to="/resume">Resume</Link></li> */}
                                 <li className="nav-item"><Link className="nav-link" to="/about-me">About Me</Link></li>
                                 <li className="nav-item"><Link className="nav-link" to="/my-projects">My Projects</Link></li>
                                 <li className="nav-item"><Link className="nav-link" to="/contact-me">Contact Me</Link></li>
