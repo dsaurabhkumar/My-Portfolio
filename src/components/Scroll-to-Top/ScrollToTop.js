@@ -10,14 +10,18 @@ export default class ScrollToTop extends Component {
     }
 
     componentDidMount() {
+        this._isMounted = true;
         var scrollComponent = this;
         document.addEventListener("scroll", function (e) {
             scrollComponent.toggleVisibility();
         });
     }
+    componentWillUnmount() {
+        this._isMounted = false;
+    }
 
     toggleVisibility() {
-        if (window.pageYOffset > 1) {
+        if (window.pageYOffset > 10) {
             this.setState({
                 is_visible: true
             });

@@ -12,7 +12,7 @@ class Projects extends React.Component {
                     date: 'Dec 2019 to till date',
                     open: false,
                     description: `Jones Lang LaSalle Incorporated (JLL) is an American commercial real estate services firm. It is the second-largest company of its kind in the world. The company is ranked 189th on the Fortune 500.
-                        JLL is headquartered in Chicago, Illinois, and is the second largest project managment consultancy in world. The company has approximately 91,000 employees in 80 countries, as of 2019. Services include sales and leasing, property management, project management, and development. In 2014, the organization shortened its name to JLL for marketing purposes, while the legal name remained Jones Lang LaSalle Incorporated.`,
+                    JLL is headquartered in Chicago, Illinois, and is the second largest project managment consultancy in world. The company has approximately 91,000 employees in 80 countries, as of 2019. Services include sales and leasing, property management, project management, and development. In 2014, the organization shortened its name to JLL for marketing purposes, while the legal name remained Jones Lang LaSalle Incorporated.`,
                     techStack: 'HTML5, SASS, JavaScript, Angular, React JS, Bootstrap 4, GIT, Bit Bucket, JIRA.'
                 },
                 {
@@ -27,13 +27,13 @@ class Projects extends React.Component {
                     date: 'July 2019 to Sep 2019',
                     open: false,
                     description: `Worked on the POC for the project. Client company has around 140+ websites for different- different countries. Need to convert all the sites on new platform i.e. Jahia (CMS) which is based on JSP.
-                        TransUnion is an American consumer credit reporting agency. TransUnion collects and aggregates information on over one billion individual consumers in over thirty countries including "200 million files profiling nearly every credit-active consumer in the United States". Its customers include over 65,000 businesses. Based in Chicago, Illinois, TransUnion's 2014 revenue was US$1.3 billion.
-                        TransUnion also markets credit reports and other credit and fraud-protection products directly to consumers. Like all credit reporting agencies, the company is required by U.S. law to provide consumers with one free credit report every year.`,
+                    TransUnion is an American consumer credit reporting agency. TransUnion collects and aggregates information on over one billion individual consumers in over thirty countries including "200 million files profiling nearly every credit-active consumer in the United States". Its customers include over 65,000 businesses. Based in Chicago, Illinois, TransUnion's 2014 revenue was US$1.3 billion.
+                    TransUnion also markets credit reports and other credit and fraud-protection products directly to consumers. Like all credit reporting agencies, the company is required by U.S. law to provide consumers with one free credit report every year.`,
                     techStack: 'HTML5, CSS, JavaScript, Bootstrap 4, Jahia (CMS), JSP, GIT, Bit Bucket, JIRA.'
                 },
                 {
                     title: 'Ayasya Didital Pvt. Ltd. (ayasya.com)',
-                    date: 'March 2019 to June 2019',
+                    date: 'Jan 2019 to May 2019',
                     open: false,
                     description: `It is an in-house Project. IT-sphere is a vibrant arena with continuous changes and challenges. And Ayasya Digital Solutions has been one company which always has absorbed all the shifting requirements in the market and has come up with corresponding solutions right from the year 2010.
                     With the vision to have a truthful engagement with its clients and the mission to provide them with easy, responsive, flexible, affordable and fool-proof IT-solutions, the company over the years has grown from strength to strength.
@@ -45,7 +45,7 @@ class Projects extends React.Component {
                     date: 'Oct 2018 to March 2019',
                     open: false,
                     description: `IndusInd Bank Limited is a Mumbai based Indian new generation bank, established in 1994. The bank offers commercial, transactional and electronic banking products and services. IndusInd Bank was inaugurated in April 1994 by then Union Finance Minister Manmohan Singh. Indusind Bank is the first among the new-generation private banks in India.
-                        The bank started its operations with a capital amount of Rs. 1 billion among which Rs. 600 million was raised by the Indian Residents and Rs. 400 million was raised by the Non-Resident Indians. The bank has specialized in retail banking services and continuously upgrades its support systems by introducing newer technologies. It is also working on expanding its network of branches all across the country along with meeting the global benchmark. According to the bank, its name is derived from the Indus Valley Civilisation.`,
+                    The bank started its operations with a capital amount of Rs. 1 billion among which Rs. 600 million was raised by the Indian Residents and Rs. 400 million was raised by the Non-Resident Indians. The bank has specialized in retail banking services and continuously upgrades its support systems by introducing newer technologies. It is also working on expanding its network of branches all across the country along with meeting the global benchmark. According to the bank, its name is derived from the Indus Valley Civilisation.`,
                     techStack: 'HTML5, CSS, SCSS, JavaScript, Bootstrap 4, GIT, AEM 6.4, Gitlab.'
                 },
                 {
@@ -54,8 +54,8 @@ class Projects extends React.Component {
                     date: 'May 2018 to June 2019',
                     open: false,
                     description: `The Walgreen Company (or simply Walgreens) is an American company that operates as the second-largest pharmacy store chain in the United States behind CVS Health. It specializes in filling prescriptions, health and wellness products, health information, and photo services. As of August 31, 2016, the company operated 8,175 stores in all 50 states, the District of Columbia, Puerto Rico, and the U.S. Virgin Islands. It was founded in Chicago, Illinois, in 1901. The Walgreens headquarters office is in the Chicago suburb of Deerfield, Illinois.
-                        Using JIRA as the bug tracking system to track and maintain the history of bugs/issues on everyday basis. Creating Single Page Application with loading multiple views using route services etc. Called the Restful web service calls for POST, PUT, DELETE and GET methods. Developed multiple screens for Mobile Browsers such as Safari, Chrome, Opera to support the screen Compatibility and Resolution using Bootstrap, Flex-box and Grid.
-                        `,
+                    Using JIRA as the bug tracking system to track and maintain the history of bugs/issues on everyday basis. Creating Single Page Application with loading multiple views using route services etc. Called the Restful web service calls for POST, PUT, DELETE and GET methods. Developed multiple screens for Mobile Browsers such as Safari, Chrome, Opera to support the screen Compatibility and Resolution using Bootstrap, Flex-box and Grid.
+                    `,
                     techStack: 'HTML5, CSS, SCSS, JavaScript, Bootstrap 4, Flex-box, Angular 5, Typescript, GIT, Bit Bucket, Git Lab.'
                 },
             ]
@@ -88,6 +88,7 @@ class Projects extends React.Component {
                                 <p className="techStack">
                                     <strong>Tech Stack:</strong> {val.techStack}
                                 </p>
+                                {index < this.state.accordian.length - 1 && <hr />}
                             </div>
                         </div>
                     ))
