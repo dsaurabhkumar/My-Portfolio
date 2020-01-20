@@ -17,7 +17,7 @@ class Projects extends React.Component {
                 },
                 {
                     title: 'Accounting Software-GST',
-                    date: 'Oct 2019 to till date',
+                    date: 'Nov 2019 to till date',
                     open: false,
                     description: `It’s an in-house project GST is an Indirect Tax which has replaced many Indirect Taxes in India. The Goods and Service Tax Act was passed in the Parliament on 29th March 2017. The Act came into effect on 1st July 2017; Goods & Services Tax Law in India is a comprehensive, multi-stage, destination-based tax that is levied on every value addition. In simple words, Goods and Service Tax (GST) is an indirect tax levied on the supply of goods and services. This law has replaced many indirect tax laws that previously existed in India. GST is one indirect tax for the entire country.`,
                     techStack: 'HTML5, SASS, JavaScript React, Bootstrap 4, GIT.'
