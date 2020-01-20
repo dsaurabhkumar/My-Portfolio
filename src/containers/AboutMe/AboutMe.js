@@ -11,8 +11,28 @@ class AboutMe extends React.Component {
                         <h2>Hi, I'm a Front-End, Web Developer and UI Designer based in New Delhi, India.</h2>
                         <p>"With 1.7 years of front end experience."</p>
                     </div>
-                    <div className="mt-2 text-center aboutMe">
-
+                    <div className="mt-2 aboutMe">
+                        <div>
+                            <i className="fab fa-html5 html5"></i>
+                        </div>
+                        <div>
+                            <i className="fab fa-css3-alt css3"></i>
+                        </div>
+                        <div>
+                            <i className="fab fa-js-square js"></i>
+                        </div>
+                        <div>
+                            <i className="fab fa-bootstrap bootsTrap"></i>
+                        </div>
+                        <div>
+                            <i className="fab fa-git-alt git"></i>
+                        </div>
+                        <div>
+                            <i className="fab fa-angular angular"></i>
+                        </div>
+                        <div>
+                            <i className="fab fa-react react"></i>
+                        </div>
                     </div>
                     <div className="mt-5 text-center contentContainer">
                         <h2>What can I do ?</h2>
