@@ -31,13 +31,16 @@ ul {
 .projectDetails {
     transition: max-height 0.2s ease-out;
 }
-/* .accordion::before {
-    content: "Show more...";
+.projectLogo {
+    width: 75%;
 }
-.accordion:active {
-    content: "Show less...";
-} */
-
+@media (min-width: 768px) {
+    .projectTitleAlign {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}
 @media (max-width: 767px) {
     .projectDetails p {
         font-size: 14px;
@@ -45,5 +48,11 @@ ul {
     .techStack {
         font-size: 14px;
         text-align: justify;
+    }
+    .projectLogo {
+        width: 50%;
+    }
+    .projectLogo {
+        padding-bottom: 1rem;
     }
 }
