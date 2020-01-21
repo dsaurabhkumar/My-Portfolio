@@ -86,11 +86,11 @@ class Projects extends React.Component {
                         <div key={'Accordian_item_' + index} className="row mb-2">
                             <div className="col-md-12" id="projects">
                                 <div className="row">
+                                <div className="col-md-10 projectTitleAlign">
+                                        <strong className="projectTitle">{val.title}</strong>
+                                    </div>
                                     <div className="col-md-2">
                                         <img className="projectLogo" src={val.logo}></img>
-                                    </div>
-                                    <div className="col-md-10 projectTitleAlign">
-                                        <strong className="projectTitle">{val.title}</strong>
                                     </div>
                                 </div>
                                 <p className="impDetail mt-2">{val.details}</p>
